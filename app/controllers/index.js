@@ -1,3 +1,4 @@
+alert("Hola");
 var db = Ti.Database.open("db");
 db.execute('CREATE TABLE IF NOT EXISTS usuario(id INTEGER PRIMARY KEY, usuario TEXT, password TEXT);');
 db.execute('CREATE TABLE IF NOT EXISTS opciones(nombre TEXT UNIQUE, opcion TEXT);');
